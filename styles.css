@@ -1,0 +1,238 @@
+/* General styles */
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header styles */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+}
+
+header .logo img {
+    width: 100px;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Banner styles */
+.banner {
+    background: url('C:/Users/LENOVO/Desktop/alx_htm_css/css_advanced/images/Object.png') no-repeat center center;
+    background-size: cover; /* Changed to cover for better scaling */
+    text-align: center;
+    padding: 200px 0; /* Simplified padding */
+    color: #fff;
+    
+}
+
+.banner h1 {
+    font-size: 120px;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+.banner p {
+    font-size: 24px;
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.banner ul {
+    font-size: 24px;
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    justify-content: center; /* Added to center align items */
+    gap: 20px; /* Added gap for spacing between list items */
+}
+
+/* Quotes styles */
+.quotes {
+    padding: 40px 20px;
+    background-color: #C271FF;
+    font-style: italic;
+    text-align: center;
+}
+
+.quotes blockquote {
+    font-size: 24px;
+    margin: 0;
+}
+
+.quotes cite {
+    display: block;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+/* Videos list styles */
+.videos {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.videos h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.videos ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.videos ul li {
+    max-width: 200px;
+}
+
+.videos ul li img {
+    width: 100%;
+    display: block;
+}
+
+.videos ul li p {
+    font-size: 16px;
+}
+
+/* Membership styles */
+.membership {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #0c3974;
+    align-items: center;
+}
+
+.membership ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none; /* Removed default bullet points */
+    padding: 0; /* Removed default padding */
+    justify-content: center; /* Center align items */
+    gap: 20px; /* Added gap for spacing between items */
+    text-align: center; /* Center the text within each list item */
+}
+
+.membership li {
+    margin: 10px; /* Added spacing between items */
+    text-align: center; /* Center the text within each list item */
+}
+
+.membership li img {
+    display: block; /* Ensure the image is displayed as a block element */
+    margin: 0 auto; /* Center the image within the list item */
+}
+
+.membership li p {
+    margin: 5px 0; /* Added spacing around paragraphs */
+}
+
+.membership h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.membership p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.membership button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #C271FF;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    width: 162px;
+    height: 44px;
+}
+
+/* FAQ styles */
+.faq {
+    padding: 40px 20px;
+}
+
+.faq h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.faq ul {
+    list-style: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two equal columns */
+    gap: 20px; /* Gap between items */
+}
+
+.faq ul li {
+    margin-bottom: 20px;
+}
+
+.faq ul li h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.faq ul li p {
+    font-size: 16px;
+}
+
+.faq .paragraph-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two equal columns */
+    gap: 20px; /* Gap between items */
+}
+
+.paragraph-container p {
+    margin-bottom: 20px;
+}
+
+/* Footer styles */
+footer {
+    padding: 20px;
+    text-align: center;
+    background-color: #071629;
+    color: #fff;
+}
+
+/* Social Media Icons */
+.social-media {
+    margin: 20px 0;
+}
+
+.social-media a {
+    color: #fff;
+    font-size: 24px;
+    margin: 0 10px;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.social-media a:hover {
+    color: #ff9800;
+}
