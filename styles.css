@@ -122,8 +122,9 @@ header nav ul li a {
 .membership {
     padding: 40px 20px;
     text-align: center;
-    background-color: #0c3974;
+    background-color: #071629;
     align-items: center;
+    color: white;
 }
 
 .membership ul {
@@ -139,6 +140,7 @@ header nav ul li a {
 .membership li {
     margin: 10px; /* Added spacing between items */
     text-align: center; /* Center the text within each list item */
+    color: white;
 }
 
 .membership li img {
@@ -174,6 +176,8 @@ header nav ul li a {
 /* FAQ styles */
 .faq {
     padding: 40px 20px;
+    text-align: center;
+
 }
 
 .faq h2 {
@@ -187,10 +191,12 @@ header nav ul li a {
     display: grid;
     grid-template-columns: 1fr 1fr; /* Two equal columns */
     gap: 20px; /* Gap between items */
+    text-align: center;
 }
 
 .faq ul li {
     margin-bottom: 20px;
+    align-items: center;
 }
 
 .faq ul li h3 {
