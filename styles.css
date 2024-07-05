@@ -32,40 +32,69 @@ header nav ul li a {
     font-weight: bold;
 }
 
-/* Banner styles */
 .banner {
-    background: url('C:/Users/LENOVO/Desktop/alx_htm_css/css_advanced/images/Object.png') no-repeat center center;
-    background-size: cover; /* Changed to cover for better scaling */
+    background: url('C:/Users/LENOVO/alx_html_css/css_advanced/images/Object.png') no-repeat center center;
+    background-size: cover;
     text-align: center;
-    padding: 200px 0; /* Simplified padding */
+    padding: 100px 20px;
     color: #fff;
-    
 }
 
 .banner h1 {
-    font-size: 120px;
-    margin-bottom: 0px;
-    text-align: center;
+    font-size: 48px;
+    margin-bottom: 20px;
 }
 
-.banner p {
-    font-size: 24px;
-    text-align: center;
+.banner ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.banner ul li a {
     color: #fff;
     text-decoration: none;
     font-weight: bold;
 }
 
-.banner ul {
-    font-size: 24px;
-    text-align: center;
+.banner .register-btn {
+    padding: 10px 20px;
+    font-size: 12px;
+    background-color: #C271FF;
     color: #fff;
-    text-decoration: none;
-    list-style: none;
-    display: flex;
-    justify-content: center; /* Added to center align items */
-    gap: 20px; /* Added gap for spacing between list items */
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
 }
+
+.banner .learn-text {
+    color: #C271FF;
+    padding-top: 48px;
+}
+
+.banner ul {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.banner ul li {
+    max-width: 200px;
+}
+
+.banner ul li img {
+    width: 100%;
+    display: block;
+}
+
+.banner ul li p {
+    font-size: 16px;
+    color: #fff;
+}
+
+
 
 /* Quotes styles */
 .quotes {
@@ -164,14 +193,19 @@ header nav ul li a {
 
 .membership button {
     padding: 10px 20px;
-    font-size: 16px;
+    font-size: 12px;
     background-color: #C271FF;
     color: #fff;
     border: none;
+    border-radius: 25px;
     cursor: pointer;
-    width: 162px;
-    height: 44px;
 }
+
+/* Highlight the word "Free" */
+.highlight {
+    color: #C271FF;
+}
+
 
 /* FAQ styles */
 .faq {
