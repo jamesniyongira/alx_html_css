@@ -1,0 +1,307 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Variables */
+:root {
+    --primary-color: #071629;
+    --secondary-color: #6c757d;
+    --bg-color: #f8f9fa;
+    --text-color: #333;
+    --link-hover-color: #FF6565;
+    --btn-hover-opacity: 0.9;
+}
+
+/* Global Styles */
+body {
+    font-family: 'Source Sans Pro', Arial, sans-serif;
+    line-height: 1.6;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Header Styles */
+.header {
+    background: url("C:/Users/LENOVO/alx_html_css/headphones/iamges/d1597894d79386c83b9b/images/headphones_hero_1.jpg") no-repeat center center;
+    color: #fff;
+    padding: 20px 0;
+}
+
+/* Navbar */
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    max-width: 150px; /* Adjust as needed */
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: #FFFFFF; /* Adjust color as needed */
+    font-size: 16px;
+    transition: color 0.3s ease; /* Add transition for smooth hover effect */
+}
+
+.nav-links li a:hover {
+    color: #FF0000; /* Change to desired hover color */
+}
+
+/* Hero Section */
+.hero .container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.hero h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+/* Call to Action Button */
+.btn {
+    width: 162px;
+    max-width: 162px;
+    height: 44px;
+    padding: 10px 20px;
+    background-color: #FF6565;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 22px;
+    cursor: pointer;
+    transition: opacity 0.3s ease, background-color 0.3s ease; /* Add transition for background color */
+    display: block;
+    margin: 20px auto 0;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    text-decoration: none; /* Removes underline */
+    font-style: bold;
+}
+
+.btn:hover {
+    opacity: 0.8;
+    background-color: darkred; /* Change to desired hover background color */
+}
+
+/* What we do... Section */
+.what-we-do {
+    padding: 80px 0;
+    background-color: #fff;
+    text-align: center;
+}
+.services {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap; /* Wrap the services for better responsiveness */
+    margin-top: 40px;
+}
+
+.service {
+    flex: 1 1 22%; /* Adjusted flex to make all services equal width */
+    padding: 20px;
+    margin: 10px;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    text-align: center; /* Center-align the content */
+}
+
+.service img {
+    width: 100px; /* Set a fixed width for all images */
+    height: 100px; /* Set a fixed height for all images */
+    object-fit: cover; /* Ensure the image covers the area without stretching */
+    margin-bottom: 10px; /* Add space between the image and heading */
+}
+
+.service h3 {
+    margin-bottom: 10px;
+}
+
+.service p {
+    font-size: 0.9rem;
+}
+
+/* Our results Section */
+.our-results {
+    background: url("C:/Users/LENOVO/alx_html_css/headphones/iamges/d1597894d79386c83b9b/images/headphones_hero_2.jpg") no-repeat center center;
+    padding: 80px 0;
+    text-align: center;
+    color: #FFFFFF; /* Set text color to white */
+}
+
+.pentagons {
+    display: flex;
+    justify-content: space-around;
+    align-items: center; /* Center items vertically */
+    margin-top: 20px; /* Add margin for spacing */
+}
+
+.pentagon {
+    width: 150px; /* Adjust width as needed */
+    height: 150px; /* Adjust height as needed */
+    background: url("C:/Users/LENOVO/alx_html_css/headphones/iamges/d1597894d79386c83b9b/images/pentagone.png") no-repeat center center;
+    background-size: cover;
+    position: relative;
+    margin: 0 10px; /* Adjust horizontal margin for spacing */
+}
+
+.pentagon .content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff; /* White color for text */
+}
+
+.pentagon .content p {
+    margin: 0;
+    font-size: 12px; /* Adjust font size as needed */
+}
+
+.pentagon .content .percentage {
+    font-size: 20px; /* Make +2% text larger */
+    font-weight: bold; /* Make it bold */
+}
+
+/* Adjust other styles as needed */
+
+
+
+/* Contact us Section */
+.contact-us {
+    width: 100%; /* Adjusted width to full width */
+    max-width: 500px; /* Adjusted max-width for responsiveness */
+    margin: 0 auto; /* Center the section horizontally */
+    background-color: #fbf7f7;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: left; /* Align text and inputs to the left */
+    margin-bottom: 40px; /* Added margin bottom to create space */
+}
+
+.contact-us .form-group {
+    margin-bottom: 20px;
+}
+
+.contact-us .form-group.contact-header {
+    font-family: SourceSansPro;
+    font-size: 32px;
+    line-height: 37.5px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.contact-us label {
+    display: block;
+    margin-bottom: 5px;
+    font-family: SourceSansPro;
+    font-size: 14px;
+    line-height: 16.41px;
+}
+
+.contact-us input[type="text"],
+.contact-us input[type="email"],
+.contact-us textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: none; /* Remove all borders */
+    border-bottom: 1px solid #ccc; /* Add only bottom border */
+    border-radius: 0; /* Remove border radius */
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+.contact-us input[type="text"]:focus,
+.contact-us input[type="email"]:focus,
+.contact-us textarea:focus {
+    border-color: #66afe9; /* Change bottom border color on focus */
+    border-bottom-width: 2px; /* Increase bottom border width on focus */
+}
+
+
+.contact-us button[type="submit"] {
+    width: 162px; /* Adjusted width to full width */
+    max-width: 162px; /* Adjusted max-width for responsiveness */
+    height: 44px;
+    padding: 10px 20px;
+    background-color: #FF6565; /* Red background color */
+    color: #FFFFFF; /* White text color */
+    border: none;
+    border-radius: 22px; /* Rounded corners, half of the height for fully rounded */
+    cursor: pointer;
+    transition: opacity 0.3s ease;
+    display: block; /* Ensures button is block level */
+    margin: 20px auto 0; /* Center button horizontally and add spacing from inputs */
+    text-align: center; /* Center the text inside the button */
+    font-family: Arial, Helvetica, sans-serif; /* Ensure consistent font */
+    font-size: 14px; /* Font size for readability */
+    font-style: bold;
+}
+
+.contact-us button[type="submit"]:hover,
+.contact-us button[type="submit"]:focus {
+    opacity: 0.8; /* Slightly transparent on hover/focus */
+}
+
+
+/* Footer Section */
+.footer {
+    padding: 20px 0;
+    text-align: center;
+    background-color: #071629;
+    color: #fff;
+    clear: both; /* Clear floats and absolute positioning */
+}
+
+.footer .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-logo img {
+    max-width: 150px; /* Adjust as needed */
+}
+
+.footer-social a img {
+    max-width: 30px; /* Adjust as needed */
+    margin-left: 10px; /* Space between icons */
+}
+
+/* Ensure the footer content is vertically centered */
+.footer-logo,
+.footer-social {
+    display: flex;
+    align-items: center;
+}
+
+.footer-social a {
+    display: inline-block;
+}
+
